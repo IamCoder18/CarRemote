@@ -1,0 +1,75 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    touch-action: none;
+}
+
+body{
+    background-color: #9bf17f;
+}
+
+#connectDiv{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: max-content;
+    height: max-content;
+}
+
+#connectButton{
+    background-color: #85218c;
+    color: #FFFFFF;
+    border: 5px solid #000000;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.centerDiv{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    height: max-content;
+}
+
+input[type=range][orient=vertical] {
+    writing-mode: vertical-lr;
+    direction: rtl;
+    vertical-align: bottom;
+    display: inline-block;
+    height: 95%!important;
+    -webkit-appearance: none;
+    border-radius: 16px;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    appearance: none;
+    -moz-appearance: none;
+    width: 80px;
+    background: #37815f;
+    border-radius: 16px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background: goldenrod;
+    margin-left: 5px;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
